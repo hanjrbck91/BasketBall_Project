@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class Ball : MonoBehaviour
 {
-    public GameObject trailObject;
+    //public GameObject trailObject;
 
     private void Start()
     {
-        trailObject.SetActive(false);
+        //trailObject.SetActive(false);
     }
 
     public void ActivateTrail()
     {
-        trailObject.SetActive(true);
+       // trailObject.SetActive(true);
     }
 }

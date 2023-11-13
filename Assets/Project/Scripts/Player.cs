@@ -31,7 +31,7 @@ public class Player : MonoBehaviour
             if(Input.GetMouseButtonDown(0))
             {
                 holdingBall = false;
-                ball.ActivateTrail();
+                //ball.ActivateTrail();
                 rb.useGravity = true;
                 rb.AddForce(playerCamera.transform.forward * ballThrowingforce);
             }
