@@ -12,7 +12,7 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(player.holdingBall == false)
+        if(player.holdingBall == false) 
         {
             Invoke("Reset", 5f);
         }
