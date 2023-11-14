@@ -219,7 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29c17079dd74cde4d87fcc414d4cf542, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -1.02
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 29c17079dd74cde4d87fcc414d4cf542, type: 3}
       propertyPath: m_LocalPosition.z
@@ -337,7 +337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &705507994
 Light:
   m_ObjectHideFlags: 0
@@ -939,11 +939,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1357195249}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1442524603 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1000011128802252, guid: 96730f8640590934eacb6f860058e7f9, type: 3}
-  m_PrefabInstance: {fileID: 1916536092}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1442524604 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4000011693693590, guid: 96730f8640590934eacb6f860058e7f9, type: 3}
@@ -976,7 +971,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af7bf501f8ba8624580edd7f41404159, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trailObject: {fileID: 1442524603}
 --- !u!54 &1758645106
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1397,8 +1391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e6ac78cca0524747ad774df6e615c21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2107268154}
-  resetTimer: 5
 --- !u!4 &2057937259 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8762286023885395322, guid: 9c489a8547f4d9e4387da15a4ff82c81, type: 3}
@@ -1553,12 +1545,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c9cab52a0bcf9418acf93733b281d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ball: {fileID: 1758645105}
+  ballPrefab: {fileID: 1758645105}
   playerCamera: {fileID: 687769376}
   ballDistance: 2.58
   ballThrowingforce: 550
-  rb: {fileID: 0}
-  holdingBall: 1
 --- !u!1 &2120515120
 GameObject:
   m_ObjectHideFlags: 0
